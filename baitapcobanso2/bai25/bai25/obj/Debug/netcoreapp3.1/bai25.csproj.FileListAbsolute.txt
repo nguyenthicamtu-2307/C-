@@ -1,0 +1,14 @@
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.exe
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.deps.json
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.runtimeconfig.json
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.runtimeconfig.dev.json
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.dll
+E:\HK221\C#\bai25\bai25\bin\Debug\netcoreapp3.1\bai25.pdb
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.csproj.AssemblyReference.cache
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.AssemblyInfoInputs.cache
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.AssemblyInfo.cs
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.csproj.CoreCompileInputs.cache
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.dll
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.pdb
+E:\HK221\C#\bai25\bai25\obj\Debug\netcoreapp3.1\bai25.genruntimeconfig.cache

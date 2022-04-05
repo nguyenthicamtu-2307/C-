@@ -1,0 +1,14 @@
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.exe
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.deps.json
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.runtimeconfig.json
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.runtimeconfig.dev.json
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.dll
+E:\HK221\C#\kiemtralan1\kiemtralan1\bin\Debug\netcoreapp3.1\kiemtralan1.pdb
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.csproj.AssemblyReference.cache
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.AssemblyInfoInputs.cache
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.AssemblyInfo.cs
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.csproj.CoreCompileInputs.cache
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.dll
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.pdb
+E:\HK221\C#\kiemtralan1\kiemtralan1\obj\Debug\netcoreapp3.1\kiemtralan1.genruntimeconfig.cache
