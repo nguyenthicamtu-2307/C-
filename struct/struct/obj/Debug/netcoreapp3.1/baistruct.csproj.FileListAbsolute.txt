@@ -1,0 +1,14 @@
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.exe
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.deps.json
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.runtimeconfig.json
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.runtimeconfig.dev.json
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.dll
+E:\HK221\C#\struct\struct\bin\Debug\netcoreapp3.1\baistruct.pdb
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.csproj.AssemblyReference.cache
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.AssemblyInfoInputs.cache
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.AssemblyInfo.cs
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.csproj.CoreCompileInputs.cache
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.dll
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.pdb
+E:\HK221\C#\struct\struct\obj\Debug\netcoreapp3.1\baistruct.genruntimeconfig.cache

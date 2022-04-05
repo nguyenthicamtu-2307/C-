@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "baistruct", "struct\baistruct.csproj", "{F6303A6E-FFC7-473B-B12D-60D2BAE54805}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6303A6E-FFC7-473B-B12D-60D2BAE54805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6303A6E-FFC7-473B-B12D-60D2BAE54805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6303A6E-FFC7-473B-B12D-60D2BAE54805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6303A6E-FFC7-473B-B12D-60D2BAE54805}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F170027-07E8-46DD-B340-E8767A400BB6}
+	EndGlobalSection
+EndGlobal

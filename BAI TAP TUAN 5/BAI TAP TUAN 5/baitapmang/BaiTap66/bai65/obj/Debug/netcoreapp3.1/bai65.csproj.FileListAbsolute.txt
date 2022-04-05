@@ -1,0 +1,14 @@
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.exe
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.deps.json
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.runtimeconfig.json
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.runtimeconfig.dev.json
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.dll
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\bin\Debug\netcoreapp3.1\bai65.pdb
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.csproj.AssemblyReference.cache
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.AssemblyInfoInputs.cache
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.AssemblyInfo.cs
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.csproj.CoreCompileInputs.cache
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.dll
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.pdb
+E:\HK221\BAI TAP TUAN 5\BAI TAP TUAN 5\baitapmang\bai65\bai65\obj\Debug\netcoreapp3.1\bai65.genruntimeconfig.cache
