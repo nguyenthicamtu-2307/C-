@@ -1,269 +1,130 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public static class Globals
+namespace DaHinh
 {
-	public static void Input(System.Collections.Generic.List<Polygons> List)
-	{
-		int CatchKey;
-		do
-		{
-			Console.Write("\tPress 1 to input Quadrangle.\n");
-			Console.Write("\tPress 2 to input Triangle.\n");
-			Console.Write("\tPress 3 to input Parallelogram.\n");
-			Console.Write("\tPress 4 to input RectAngle.\n");
-			Console.Write("\tPress 5 to input Square.\n");
-			Console.Write("\tPress 6 to back to the main menu.\n");
-			while ((CatchKey && CatchKey != 1 && CatchKey != 2 && CatchKey != 3 && CatchKey != 4 && CatchKey != 5 && CatchKey != 6 = bool.Parse(ConsoleInput.ReadToWhiteSpace(true))).Length > 0)
-			{
-				Console.Write("Just Press in range 1,2,3,4,5,6. Again: ");
-			}
-			switch (CatchKey)
-			{
-				case 1:
-					List.Add(new Quadrangle());
-					List[List.Count - 1].Set();
-					break;
-				case 2:
-					List.Add(new Triangle());
-					List[List.Count - 1].Set();
-					break;
-				case 3:
-					List.Add(new Parallelogram());
-					List[List.Count - 1].Set();
-					break;
-				case 4:
-					List.Add(new RectAngle());
-					List[List.Count - 1].Set();
-					break;
-				case 5:
-					List.Add(new Square());
-					List[List.Count - 1].Set();
-					break;
-				default:
-					break;
-			}
-		} while (CatchKey != 6);
-	}
-	public static void Print(System.Collections.Generic.List<Polygons> List)
-	{
-		Console.Write("-----Print List Polygons----\n");
-		for (int i = 0; i < List.Count; i++)
-		{
-			List[i].Print();
-			Console.Write("\n");
-		}
-		Console.Write("--------------------------\n");
-	}
-	public static void Move(System.Collections.Generic.List<Polygons> List)
-	{
-		Console.Write("Input vector(x,y) to move: ");
-		int x;
-		int y;
-		x = int.Parse(ConsoleInput.ReadToWhiteSpace(true));
-		y = int.Parse(ConsoleInput.ReadToWhiteSpace(true));
-		for (int i = 0; i < List.Count; i++)
-		{
-			List[i].Move(x, y);
-		}
-	}
-	internal static void Main()
-	{
-		List<Polygons> ListPolygons = new List<Polygons>();
-		ListPolygons.Resize(0);
-		int CatchKey;
-		do
-		{
-			Console.Write("Manage Polygons: \n");
-			Console.Write("\tPress 1 to input one kind Polygons.\n");
-			Console.Write("\tPress 2 to print and move all list of Polygonss.\n");
-			Console.Write("\tPress 3 to exit.\n");
-			while ((CatchKey && CatchKey != 1 && CatchKey != 2 && CatchKey != 3 = bool.Parse(ConsoleInput.ReadToWhiteSpace(true))).Length > 0)
-			{
-				Console.Write("Just Press in range 1,2,3. Again: ");
-			}
-			switch (CatchKey)
-			{
-				case 1:
-					Input(ListPolygons);
-					break;
-				case 2:
-					Print(ListPolygons);
-					char x;
-					Console.Write("Move? (y,n): ");
-					while ((x && x != 'n' && x != 'y' = bool.Parse(ConsoleInput.ReadToWhiteSpace(true))).Length > 0)
-					{
-						Console.Write("Just Press y or n!Again.\n");
-					}
-					if (x == 'y')
-					{
-						Move(ListPolygons);
-					}
-					break;
-				default:
-					break;
-			}
-		} while (CatchKey != 3);
-		for (int i = 0; i < ListPolygons.Count; i++)
-		{
-			if (ListPolygons[i] != null)
-			{
-				ListPolygons[i].Dispose();
-			}
-		}
-		Console.Write("Thanks!");
-	}
-}
+    class DaGiac
+    {
+        int soCanh;
 
-//Helper class added by C++ to C# Converter:
+        public DaGiac(int soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-//----------------------------------------------------------------------------------------
-//	Copyright © 2006 - 2022 Tangible Software Solutions, Inc.
-//	This class can be used by anyone provided that the copyright notice remains intact.
-//
-//	This class is used to convert some of the C++ std::vector methods to C#.
-//----------------------------------------------------------------------------------------
-using System.Collections.Generic;
+        public int SoCanh { get => soCanh; set => soCanh = value; }
 
-internal static class VectorHelper
-{
-	public static void Resize<T>(this List<T> list, int newSize, T value = default(T))
-	{
-		if (list.Count > newSize)
-			list.RemoveRange(newSize, list.Count - newSize);
-		else if (list.Count < newSize)
-		{
-			for (int i = list.Count; i < newSize; i++)
-			{
-				list.Add(value);
-			}
-		}
-	}
+        virtual public void Xuat()
+        {
+            Console.WriteLine("Day la da giac.");
+        }
+    }
+    class HinhVuong : DaGiac
+    {
+        public HinhVuong(int soCanh) : base(soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-	public static void Swap<T>(this List<T> list1, List<T> list2)
-	{
-		List<T> temp = new List<T>(list1);
-		list1.Clear();
-		list1.AddRange(list2);
-		list2.Clear();
-		list2.AddRange(temp);
-	}
+        override public void Xuat()
+        {
+            Console.WriteLine("Co 4 canh bang nhau va 1 goc vuong.");
+        }
+    }
+    class TamGiac : DaGiac
+    {
+        public TamGiac(int soCanh) : base(soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-	public static List<T> InitializedList<T>(int size, T value)
-	{
-		List<T> temp = new List<T>();
-		for (int count = 1; count <= size; count++)
-		{
-			temp.Add(value);
-		}
+        override public void Xuat()
+        {
+            Console.WriteLine("Co 3 canh va tong 2 canh bat ki lon hon canh con lai.");
+        }
+    }
+    class HinhChuNhat : DaGiac
+    {
+        public HinhChuNhat(int soCanh) : base(soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-		return temp;
-	}
+        override public void Xuat()
+        {
+            Console.WriteLine("Co 2 cap canh bang nhau va 1 goc vuong.");
+        }
+    }
+    class HinhTuGiac : DaGiac
+    {
+        public HinhTuGiac(int soCanh) : base(soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-	public static List<List<T>> NestedList<T>(int outerSize, int innerSize)
-	{
-		List<List<T>> temp = new List<List<T>>();
-		for (int count = 1; count <= outerSize; count++)
-		{
-			temp.Add(new List<T>(innerSize));
-		}
+        override public void Xuat()
+        {
+            Console.WriteLine("Co 4 canh.");
+        }
+    }
+    class HinhBinhHanh : DaGiac
+    {
+        public HinhBinhHanh(int soCanh) : base(soCanh)
+        {
+            SoCanh = soCanh;
+        }
 
-		return temp;
-	}
+        override public void Xuat()
+        {
+            Console.WriteLine("Co 2 cap canh doi song song bang nhau, 2 goc doi bang nhau va 2 duong cheo cat nhau tai trung diem cua hinh.");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("1. Tam giac");
+            Console.WriteLine("2. Tu giac");
+            Console.WriteLine("3. Hinh binh hanh");
+            Console.WriteLine("4. Hinh chu nhat");
+            Console.WriteLine("5. Hinh vuong");
+            Console.Write("Chon: ");
+            int hinh = int.Parse(Console.ReadLine());
 
-	public static List<List<T>> NestedList<T>(int outerSize, int innerSize, T value)
-	{
-		List<List<T>> temp = new List<List<T>>();
-		for (int count = 1; count <= outerSize; count++)
-		{
-			temp.Add(InitializedList(innerSize, value));
-		}
+            if (hinh == 1)
+            {
+                DaGiac tg = new TamGiac(3);
+                tg.Xuat();
+            }
+            else if (hinh == 2)
+            {
+                DaGiac tg = new HinhTuGiac(4);
+                tg.Xuat();
+            }
+            else if (hinh == 3)
+            {
+                DaGiac tg = new HinhBinhHanh(4);
+                tg.Xuat();
+            }
+            else if (hinh == 4)
+            {
+                DaGiac tg = new HinhChuNhat(4);
+                tg.Xuat();
+            }
+            else if (hinh == 5)
+            {
+                DaGiac tg = new HinhVuong(4);
+                tg.Xuat();
+            }
+            else
+            {
+                Console.WriteLine("Lua chon khong hop le!");
+            }
 
-		return temp;
-	}
-}
-
-//Helper class added by C++ to C# Converter:
-
-//----------------------------------------------------------------------------------------
-//	Copyright © 2006 - 2022 Tangible Software Solutions, Inc.
-//	This class can be used by anyone provided that the copyright notice remains intact.
-//
-//	This class provides the ability to convert basic C++ 'cin' and C 'scanf' behavior.
-//----------------------------------------------------------------------------------------
-internal static class ConsoleInput
-{
-	private static bool goodLastRead = false;
-	public static bool LastReadWasGood
-	{
-		get
-		{
-			return goodLastRead;
-		}
-	}
-
-	public static string ReadToWhiteSpace(bool skipLeadingWhiteSpace)
-	{
-		string input = "";
-
-		char nextChar;
-		while (char.IsWhiteSpace(nextChar = (char)System.Console.Read()))
-		{
-			//accumulate leading white space if skipLeadingWhiteSpace is false:
-			if (!skipLeadingWhiteSpace)
-				input += nextChar;
-		}
-		//the first non white space character:
-		input += nextChar;
-
-		//accumulate characters until white space is reached:
-		while (!char.IsWhiteSpace(nextChar = (char)System.Console.Read()))
-		{
-			input += nextChar;
-		}
-
-		goodLastRead = input.Length > 0;
-		return input;
-	}
-
-	public static string ScanfRead(string unwantedSequence = null, int maxFieldLength = -1)
-	{
-		string input = "";
-
-		char nextChar;
-		if (unwantedSequence != null)
-		{
-			nextChar = '\0';
-			for (int charIndex = 0; charIndex < unwantedSequence.Length; charIndex++)
-			{
-				if (char.IsWhiteSpace(unwantedSequence[charIndex]))
-				{
-					//ignore all subsequent white space:
-					while (char.IsWhiteSpace(nextChar = (char)System.Console.Read()))
-					{
-					}
-				}
-				else
-				{
-					//ensure each character matches the expected character in the sequence:
-					nextChar = (char)System.Console.Read();
-					if (nextChar != unwantedSequence[charIndex])
-						return null;
-				}
-			}
-
-			input = nextChar.ToString();
-			if (maxFieldLength == 1)
-				return input;
-		}
-
-		while (!char.IsWhiteSpace(nextChar = (char)System.Console.Read()))
-		{
-			input += nextChar;
-			if (maxFieldLength == input.Length)
-				return input;
-		}
-
-		return input;
-	}
+            Console.ReadLine();
+        }
+    }
 }
