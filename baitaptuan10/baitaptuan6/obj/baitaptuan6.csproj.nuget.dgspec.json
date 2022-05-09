@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\HK221\\C#\\bai2\\bai2\\bai2.csproj": {}
+    "E:\\HK221\\C#\\baitaptuan6\\baitaptuan6\\baitaptuan6.csproj": {}
   },
   "projects": {
-    "E:\\HK221\\C#\\bai2\\bai2\\bai2.csproj": {
+    "E:\\HK221\\C#\\baitaptuan6\\baitaptuan6\\baitaptuan6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\HK221\\C#\\bai2\\bai2\\bai2.csproj",
-        "projectName": "bai2",
-        "projectPath": "E:\\HK221\\C#\\bai2\\bai2\\bai2.csproj",
+        "projectUniqueName": "E:\\HK221\\C#\\baitaptuan6\\baitaptuan6\\baitaptuan6.csproj",
+        "projectName": "baitaptuan6",
+        "projectPath": "E:\\HK221\\C#\\baitaptuan6\\baitaptuan6\\baitaptuan6.csproj",
         "packagesPath": "C:\\Users\\FPTSHOP\\.nuget\\packages\\",
-        "outputPath": "E:\\HK221\\C#\\bai2\\bai2\\obj\\",
+        "outputPath": "E:\\HK221\\C#\\baitaptuan6\\baitaptuan6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

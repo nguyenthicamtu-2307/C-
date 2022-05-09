@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bai1", "bai1\bai1.csproj", "{1B0AA002-2D90-4075-BCE5-510C27EFE190}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitaptuan6", "baitaptuan6\baitaptuan6.csproj", "{42090CCD-21C5-496A-9B8C-9E5FF166475B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B0AA002-2D90-4075-BCE5-510C27EFE190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B0AA002-2D90-4075-BCE5-510C27EFE190}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B0AA002-2D90-4075-BCE5-510C27EFE190}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B0AA002-2D90-4075-BCE5-510C27EFE190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42090CCD-21C5-496A-9B8C-9E5FF166475B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42090CCD-21C5-496A-9B8C-9E5FF166475B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42090CCD-21C5-496A-9B8C-9E5FF166475B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42090CCD-21C5-496A-9B8C-9E5FF166475B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CF919ECF-7CF1-4B92-A854-339969E7A6BF}
+		SolutionGuid = {324D9C94-414A-4730-A008-DCB89CAF1FD9}
 	EndGlobalSection
 EndGlobal
