@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace bai1
+namespace baitaptuan6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-        }
+            int[] arr= new int[10];
+           }
     }
 }
