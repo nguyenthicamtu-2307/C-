@@ -1,0 +1,14 @@
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.exe
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.deps.json
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.runtimeconfig.json
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.runtimeconfig.dev.json
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.dll
+E:\HK221\C#\baitaptuan10\baitaptuan6\bin\Debug\netcoreapp3.1\baitaptuan6.pdb
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.csproj.AssemblyReference.cache
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.AssemblyInfoInputs.cache
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.AssemblyInfo.cs
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.csproj.CoreCompileInputs.cache
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.dll
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.pdb
+E:\HK221\C#\baitaptuan10\baitaptuan6\obj\Debug\netcoreapp3.1\baitaptuan6.genruntimeconfig.cache
